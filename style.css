@@ -1,0 +1,58 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+main{
+    height: 100vh;
+    overflow: hidden;
+   
+}
+.upper{
+background-image:url(./MEDIA/logo.png) ;
+
+background-size: cover;
+height:15vh ;
+}
+
+
+.lower{
+    background-image:url(./MEDIA/image\ \(2\).jpg) ;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+.upper{
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.sm{
+    display: flex;
+    align-self: center;
+    gap: 20px;
+}
+.contact{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#num{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 10px;
+    
+
+}
