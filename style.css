@@ -4,7 +4,7 @@
 }
 main{
     height: 100vh;
-    overflow: hidden;
+    
    
 }
 .upper{
@@ -16,7 +16,7 @@ height:15vh ;
 
 
 .lower{
-    background-image:url(./MEDIA/image\ \(2\).jpg) ;
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(MEDIA/image\ \(2\).jpg);
     background-repeat: no-repeat;
     height: 85vh;
 }
@@ -55,4 +55,138 @@ a{
     margin-left: 10px;
     
 
+}
+.words{
+   color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   padding-top: 150px;
+   font-family: sans-serif;
+   font-weight: bolder;
+   gap: 20px;
+}
+
+#wel{
+   font-size: 30px;
+   animation:ani 5s linear forwards;
+   -webkit-animation:ani 5s linear forwards;
+}
+@keyframes ani{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+
+
+#ala{
+    font-size: 100px;
+    animation:anim 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes anim{
+   from{
+    transform: translateY(600px);
+}
+  to{
+    transform: translateY(0);
+}
+}
+
+#abt{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.About{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(./MEDIA/image\ \(3\).jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.aboutme{
+   padding-top: 200px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+#abt_me{
+    width: 400px;
+    height: 150px ;
+    text-align: center;
+    align-self: center;
+    font-size: 80px;
+    font-family: sans-serif;
+    
+}
+#me{
+    font-size: 20px;
+}
+.port{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8) ,rgba(0, 0, 0, 0.8));
+}
+.services-content{
+    display: flex;
+    
+}
+.png{
+width: 550px;
+}
+.skills{
+    width:100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8) ,rgba(0, 0, 0, 0.8));
+    
+    padding: 100px 0;
+}
+.skills h2{
+    color: white;
+    font-size: 90px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.skills ul li{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    list-style:square ;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.8) ,rgba(0, 0, 0, 0.8));
+    padding: 60px 0;
+}
+.profile{
+    color: rgb(235, 6, 6);
+}
+.banner-btn{
+    margin-top: 100px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.high{
+    font-weight: bolder;
+    margin-top: 40px;
+    color: red;
 }
